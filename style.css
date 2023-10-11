@@ -35,3 +35,77 @@ html {
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.flexbox {
+  padding: 10px;
+  width: 60rem;
+  height: 40rem;
+  max-width: 40%;
+  margin:200px auto;
+  background-color:white;
+  color: #f1faee;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+ flex-grow: 1;}
+
+  .buynow {
+  padding: 5px 5px 5px 5px;
+  width:200px;
+  height: 500px;
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: black;
+  color: #f1faee;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+  
+.imageflexbox{
+  display:flex;
+  flex-direction:row;
+  justify-content:stretch;
+  align-items:stetch; 
+  border-radius:4rem;
+  flex-grow: 1;  
+  max-height: 0%;
+
+}
+
+.backgroundcolor {background-color:antiquewhite;
+}
+
+
+p, h1, h2, h3 {
+  color: brown;
+}
+
+a {
+  color:white;
+  font-size:20px;
+  text-decoration:none;
+}
+
+.bigtext {
+  color:brown;
+  font-size:30px;
+}
+
+.curve{
+  border-radius:4rem;
+}
+
+  /* 5. Add a flex-grow property and set it to 1 so that the flex box item takes the full amount of space available */
+
+
+  /* Now we setup our nested flex box - so cool */
+  /* 6. Add a display flex property so the items are layed out in a row */
+
+  /* 7. Add a flex direction property so that the flex box is set to row */
+
+  /* 8. Add a justify-content property and set it to end so that these start at the end of the row */
+
+  /* 9. Add a border-radius property and set it to 10px */
